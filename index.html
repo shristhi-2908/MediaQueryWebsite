@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Landing page</title>
+</head>
+
+<body>
+    <header class="header-section">
+        <nav class="navItem">
+            <b><i class="fa-brands fa-dropbox nav-icon">ThinkBot</i></b>
+            <ul class="nav-list">
+                <li> <a href="">Home </a></li>
+                <li> <a href="">About</a></li>
+                <li> <a href="">Features</a></li>
+                <li> <a href="">FAQs</a></li>
+            </ul>
+            <button class="nav-btn">Sign Up</button>
+            <button class="nav-btn2">Sign In</button>
+              <div class="menu-toggle">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon"> &#9776;</label>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="left">
+            <h1 class="container-heading">Buy and Sell Crypto<br>of your choice!</h1>
+            <h4 class="container-para">Crypto On The Go</h4>
+            <div class="left-btn">
+            <button class="containerBtn">Buy Crypto</button>
+            <button class="containerBtn2">Sell Crypto</button></div>
+        </div>
+
+
+        <div class="right">
+            <img class="right-img" src="banner-image.png" alt="" srcset="">
+        </div>
+        </div>
+<div class="users">
+            <button class="frame">20K+ <hr class="frame-hr"> Trusted by 59k+ users<hr class="frame-hr"><i class="fas fa-star icon"></i><i class="fas fa-star icon"></i><i class="fas fa-star icon"></i><i class="fas fa-star icon"></i><i class="fas fa-star icon"></i>5.0</button></div>
+    </section>
+
+<footer class="footer-section">
+    <div class="footer-part1">
+        <div class="footer-div">
+      <i class="fa-brands fa-dropbox foot-icon">ThinkBot</i> 
+      <p>Revolutionize the writing industry by making high- quality content generation faster</p>
+    </div>
+    <div class="footer-list">
+        <ul class="footer-list1">
+        <li> <a href="">Pages </a></li>
+                <li> <a href="">Home</a></li>
+                <li> <a href="">About</a></li>
+                <li> <a href="">Features</a></li>
+                <li> <a href="">FAQs</a></li>
+    </ul>
+
+     <ul class="footer-list2">
+        <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-github"></i> </li>
+                <li><i class="fa-brands fa-x-twitter"></i></li>
+    </ul>
+    </div>
+    </div>
+
+    <div class="footer-part2">
+        <p>&copy Thinkbot Template | Created by Stylokit</p>
+        <p><i class="fa-brands fa-strava"></i>Made in Framer</p>
+    </div>
+</footer>
+
+
+<script >
+const menuIcon=document.querySelector(".menu-icon");
+const navList=document.querySelector(".nav-list");
+
+menuIcon.addEventListener("click",()=>{
+    navList.classList.toggle("active");
+})
+</script>
+
+</body>
+</html>
